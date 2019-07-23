@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>Comments</title>
-        <style>body {background-color: #fff;} a {color:#010e7f}</style>
+        <style>body {background-color: #fff;} a {color:#68bd44}</style>
     
     </head>
 <body>
@@ -54,13 +54,13 @@ function receiveMessage(event)
      */
     var disqus_config = function () {
         this.page.url = getQueryVariable('url');
-        this.page.identifier = getQueryVariable('identifier') + ' https://www.thirteen.org/metrofocus/?p=' + getQueryVariable('identifier');
+        this.page.identifier = getQueryVariable('identifier') + ' https://www.njspotlight.com/?p=' + getQueryVariable('identifier');
         this.page.title = getQueryVariable('title');
     };
     (function() {  // DON'T EDIT BELOW THIS LINE
         var d = document, s = d.createElement('script');
 
-        s.src = '//metrofocus.disqus.com/embed.js';
+        s.src = '//nj-spotlight.disqus.com/embed.js';
 
         s.setAttribute('data-timestamp', +new Date());
         (d.head || d.body).appendChild(s);
